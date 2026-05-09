@@ -55,7 +55,7 @@ All models are implemented in Keras and trained with the Adam optimizer and cate
 
 ## 3. Results Summary
 
-The notebook computes a comparison table of the three models: [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/82155727/02c005c0-5dd2-46f2-8ebf-e9170689e1c9/Digit_Recognition.ipynb)
+The notebook computes a comparison table of the three models:
 
 | Model   | Architecture        | Training Accuracy | Test Accuracy | Training Time (approx.) | Parameters |
 |--------|---------------------|-------------------|---------------|-------------------------|-----------|
