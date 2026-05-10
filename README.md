@@ -65,7 +65,7 @@ The notebook computes a comparison table of the three models:
 
 Key observations:
 
-- All models perform well on MNIST, but the **CNN** achieves the **best test accuracy (~99.16%)**.  
+- All models perform well on MNIST, but the **CNN** achieves the **best test accuracy.  
 - Dropout slightly reduces training accuracy but improves generalization for the dense model.  
 - The CNN is more accurate but also **larger** and **much slower** to train than the dense models.
 
