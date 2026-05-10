@@ -57,11 +57,11 @@ All models are implemented in Keras and trained with the Adam optimizer and cate
 
 The notebook computes a comparison table of the three models:
 
-| Model   | Architecture        | Training Accuracy | Test Accuracy | Training Time (approx.) | Parameters |
-|--------|---------------------|-------------------|---------------|-------------------------|-----------|
-| Model 1 | Baseline Dense      | 0.9945            | 0.9743        | ~15 s                   | 109,386   |
-| Model 2 | Dense + Dropout     | 0.9859            | 0.9790        | ~20 s                   | 109,386   |
-| Model 3 | CNN (Conv + Pool)   | 0.9918            | 0.9916        | ~400 s                  | 225,034   |
+| Model   | Architecture        | Training Accuracy | Test Accuracy | Parameters |
+|--------|---------------------|-------------------|---------------|-----------|
+| Model 1 | Baseline Dense      | 0.991542            | 0.9758        | 109,386   |
+| Model 2 | Dense + Dropout     | 0.983521            | 0.9776        | 109,386   |
+| Model 3 | CNN (Conv + Pool)   | 0.990604            | 0.9927        | 225,034   |
 
 Key observations:
 
